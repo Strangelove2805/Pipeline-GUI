@@ -1,0 +1,20 @@
+{
+    "sparkapp": {
+        "name": "Transformer Read",
+        "driver": "com.mysql.cj.jdbc.Driver"
+  },
+    "url": {
+        "master": "local[*]"
+    },
+    "environment": {
+        "PYSPARK_PYTHON": "PATH TO PYTHON",
+        "connector_jar": "PATH TO JAR FILE"
+  },
+    "cores": {
+        "driver": "1",
+        "executor": "3"
+  },
+    "memory": {
+        "executor":  "4g"
+  }
+}
